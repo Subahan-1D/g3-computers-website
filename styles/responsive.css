@@ -1,0 +1,64 @@
+/* Responsive media  */
+@media screen  and (max-width:600px){
+    header {
+        padding: 20px;
+    }
+    .nav,
+    .section,
+    .features,
+    .features-content,
+    .facts-card-container
+    {
+        flex-direction: column;
+    }
+    .features-img img{
+        width: 90%;
+        margin: 0;
+    }
+
+    .teams-img{
+        grid-template-columns: 1fr;
+    }
+} 
+/* tablet device */
+@media screen and (min-width:600px) and (max-width:992px){
+    header{
+        padding: 50px;
+    }
+    .nav,
+    .section,
+    .facts-card-container,
+    .our-img-container,
+    .footer
+    .features,
+    {
+        flex-direction: column;
+    }
+    .facts-card-container{
+        gap: 10px;
+    }
+}
+@media only screen and (max-width: 600px) {
+.teams-img{
+   grid-template-columns: 1fr;
+    
+}
+.text-div{
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.nav,
+    .section,
+    .our-img-container,
+    .footer
+    {
+        flex-direction: column;
+    }
+    .facts-card-container{
+        gap: 10px;
+    }
+}
+
+
+/* main section responsive */
